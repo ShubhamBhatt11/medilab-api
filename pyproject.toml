@@ -1,0 +1,12 @@
+[project]
+name = "medilab-api"
+version = "0.1.0"
+description = "Lab-test booking backend — FastAPI + PostgreSQL port of a commercially shipped Node.js/MongoDB microservice"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
